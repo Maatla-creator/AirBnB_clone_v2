@@ -12,7 +12,7 @@ sudo ufw allow 'Nginx HTTP'
 sudo mkdir -p /data/web_static/releases/test /data/web_static/shared
 
 #--adds test string
-echo "<h1>Welcome to www.musteesolutions.tech</h1>" > /data/web_static/releases/test/index.html
+echo "<h1>Welcome to www.mogg.tech</h1>" > /data/web_static/releases/test/index.html
 
 #--prevent overwrite
 if [ -d "/data/web_static/current" ];
